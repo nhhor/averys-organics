@@ -1,0 +1,10 @@
+html {
+  display: inline-block;
+}
+
+
+
+function hide(){
+  let element = document.getElementsByClassName('cropText');
+  element.classList.toggle("hidden");
+}

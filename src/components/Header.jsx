@@ -8,10 +8,33 @@ function Header(){
   let imageNumber = (Math.round(Math.random()*3));
 
   return (
-    <div className="mainHeader">
-      <h1 className="mainH1"> Avery's Organics </h1>
-      <style jsx>{`
+    <div>
+      <h1 className="mainH1"> Avery's Organics
+
+
+
+        <style jsx>{`
+
+          .mainH1 {
+            z-index: 1;
+
+            color: blue;
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            background: rgba(255, 255, 255, .5);
+            padding: 15px;
+            border-radius: 25px;
+
+          }
+          `}</style>
+
+      </h1>
+      <div className="mainHeader">
+
+        <style jsx>{`
             .mainHeader {
+              z-index: 0;
               background-image: url(${imageArray[imageNumber]});
               // opacity: 1;
               // transition: opacity 1000ms;
@@ -29,18 +52,10 @@ function Header(){
               100% { opacity: 1; }
             }
 
-            .mainH1 {
-              color: blue;
-              position: fixed;
-              top: 40px;
-              left: 20px;
-              background: rgba(255, 255, 255, .5);
-              padding: 15px;
-              border-radius: 25px;
-
-            }
             `}</style>
+      </div>
     </div>
+
   );
 }
 
