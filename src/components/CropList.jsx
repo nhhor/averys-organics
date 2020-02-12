@@ -28,11 +28,13 @@ function CropList(props){
       .cropBox {
         border-bottom: 1px solid lightgray;
         // padding: 10px;
-      }
+
+ }
       .cropText{
         font-family: fantasy;
         color: #ab3333;
         line-height: 18px;
+
       }
       .hidden {
         display: none;
