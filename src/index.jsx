@@ -15,7 +15,6 @@ const render = (Component) => {
 
 function liveTime() {
 
-
   render(App);
 
   /*eslint-disable */
@@ -25,7 +24,6 @@ function liveTime() {
     });
   }
   /*eslint-enable */
-
 }
 
 setInterval(liveTime, 5000);

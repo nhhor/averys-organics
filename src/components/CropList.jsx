@@ -31,6 +31,7 @@ function CropList(props){
       }
       .cropText{
         font-family: fantasy;
+        color: #ab3333;
         line-height: 18px;
       }
       .hidden {

@@ -3,10 +3,15 @@ import Header from './Header';
 import MarketSchedule from './MarketSchedule';
 import CropSchedule from './CropSchedule';
 import Bio from './Bio';
+import './App.css';
+
 
 function App(){
   return (
+
+
     <div>
+
       <Header/>
 
       <div className="marketScheduleStyle">
@@ -20,17 +25,19 @@ function App(){
       </div>
 
       <style jsx>{`
+
       .marketScheduleStyle {
         position: absolute;
         top: 15vh;
-        width: 35%;
+        left: 5%;
+        width: 30%;
       }
 
       .cropScheduleStyle {
         position: absolute;
-        left: 38%;
+        left: 40%;
         top: 15vh;
-        width: 35%;
+        width: 30%;
       }
 
       .bioStyle {
@@ -38,8 +45,9 @@ function App(){
         top: 15vh;
         left: 75%;
         width: 25%;
-        height: 100vh;
+        height: 80vh;
       }
+
       `}</style>
 
     </div>

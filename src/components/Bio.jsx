@@ -5,7 +5,7 @@ function Bio(){
     <div className='bioClass'>
 
       <h2 className='bioHeader'>About Us</h2>
-      <p className='bioText'>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!</p>
+      <p className='bioText'>Who are we? Well, we seek out the finest natural and organic foods available, maintain the strictest quality standards in the industry, and have an unshakeable commitment to sustainable agriculture. Add to that the excitement and fun we bring to shopping for groceries, and you start to get a sense of what we’re all about. Oh yeah, we’re a mission-driven company too.</p>
       <style jsx>{`
       .bioClass {
         background-color: rgba(166, 250, 118, .3);
@@ -23,6 +23,8 @@ function Bio(){
 
       .bioText{
         text-align: center;
+        color: #ab3333;
+
         padding: 20px;
       }
 
